@@ -1,4 +1,4 @@
-# Java Backend Academy 
+# Java Backend Academy Accenture
 
 En este repositorio de se guardan las practicas y actividades realizadas en el proyecto de Java Backend Academy como los cursos realizados en la plataforma de Platzi.
 
