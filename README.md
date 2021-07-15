@@ -25,7 +25,8 @@ Listado con el contenido presente en el repositorio, haga clic en los siguientes
 
 ## Plan de trabajo
 
-## Enlaces al calendario de cursos en Platzi
+Enlaces al calendario de cursos en Platzi
+
 ### Semana 1 
 
 | Curso            | 
