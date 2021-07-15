@@ -6,10 +6,6 @@ En este repositorio de se guardan las practicas y actividades realizadas en el p
 
 > Follow your heart.
 
-[TOCM]
-
-[TOC]
-
 ## Contenido del repostorio
 
 * [Cursos en Plazti](#Cursos-en-Platzi)
@@ -29,7 +25,7 @@ Listado con el contenido presente en el repositorio, haga clic en los siguientes
 
 ## Plan de trabajo
 
-##Enlaces al calendario de cursos en Platzi
+## Enlaces al calendario de cursos en Platzi
 ### Semana 1 
 
 | Curso            | 
