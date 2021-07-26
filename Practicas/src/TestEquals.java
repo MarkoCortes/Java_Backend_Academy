@@ -1,5 +1,6 @@
+import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
-    class Person { }
+class Person { }
     class Student {
         int id;
         Student(int id) {
@@ -7,8 +8,14 @@
         }
         @Override
         public boolean equals(Object obj) {
-            return (obj instanceof  Student) ? true : false;
+            if (this == obj) return true;
+            if (obj instanceof Student)  {
+                Student sTemp = (Student) obj;
+                return (this.id == sTemp.id) ? true : false;
+            }
+            return false;
         }
+
     }
 
     public class TestEquals {
@@ -18,6 +25,7 @@
             Student s2 = new Student(1001);
             System.out.println(s1.equals(p));
             System.out.println(s1.equals(s2));
+            System.out.println(s1.equals(s1));
 
         }
 
