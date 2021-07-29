@@ -8,8 +8,8 @@ En este repositorio de se guardan las practicas y actividades realizadas en el p
 
 ## Contenido del repostorio
 
-* [Descripción de Practicas y Cursos]()
-* [Plan de trabajo]()
+* [Descripción de Practicas y Cursos](#descripción-de-practicas-y-cursos)
+* [Plan de trabajo](#plan-de-trabajo)
   
 
 ## Descripción de Practicas y Cursos 
