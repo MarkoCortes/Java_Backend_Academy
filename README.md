@@ -10,10 +10,7 @@ En este repositorio de se guardan las practicas y actividades realizadas en el p
 
 * [Descripción de Practicas y Cursos](##Descripción de Practicas y Cursos)
 * [Plan de trabajo](##Plan de trabajo)
-  + [Semana 1](##Plan de trabajo)
-  + [Semana 2](##Plan de trabajo)
-  + [Semana 3](##Plan de trabajo)
-  + [Semana 4](##Plan de trabajo)
+  
 
 ## Descripción de Practicas y Cursos 
 
@@ -34,7 +31,7 @@ Listado con el contenido presente en el repositorio, haga clic en los siguientes
   - El proyecto utiliza librerias llamadas JUnit y Mockito, el cual nos facilita craer funciones para realizar pruebas de caracter unitario o en un proceso completo, dependiendo de nuestras necesidades. 
 - [Curso de Programación Funcional con Java SE](https://github.com/MarkoCortes/Java_Backend_Academy/tree/main/Curso_Java_SE_Funcional)
   - Definición e historia de las Lambdas, asi como su aplicación y utilización en Java, nos ayuda a hacer más con menos código y más facil de entender. En el proyecto que se desarrolla es un progama que busca opciones de trabaja utilizando la API de Linkedin.
-- [Curso de Java Spring](https://github.com/MarkoCortes/Java_Backend_Academy/tree/main/)
+- [Curso de Java Spring](https://github.com/MarkoCortes/Java_Backend_Academy/tree/main/Cursos_Java_Spring)
   - Spring es una framework que contiene herramientas avanzadas que facilita hacer aplicaciones, los subproyectos de Spring que se van a utilizar para este proyecto son:
     - Spring Framework
     - Spring Boot
