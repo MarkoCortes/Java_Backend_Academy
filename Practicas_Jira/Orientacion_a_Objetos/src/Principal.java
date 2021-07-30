@@ -9,8 +9,26 @@ public class Principal {
             System.out.println(empleados[i].getNombre());
             empleados[i].saludoMetodo();
         }
-
+        System.out.println();
+        System.out.println("Usando Static ... ");
+        Equipo[] equipos = new Equipo[3];
+        equipos[0] = new Equipo(3,"Lenovo");
+        equipos[1] = new Equipo(5,"Dell");
+        equipos[2] = new Equipo(10,"HP");
+        System.out.println("ID del ultimo equipo agregado: " + Equipo.id);
     }
+}
+class Equipo{
+    public static int id;
+    private int cantidad;
+    private String marca;
+
+    Equipo(int cantidad, String marca){
+        this.cantidad = cantidad;
+        this.marca = marca;
+        this.id ++;
+    }
+
 }
 
  class Empleado{
