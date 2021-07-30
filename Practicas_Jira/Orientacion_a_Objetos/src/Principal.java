@@ -9,15 +9,59 @@ public class Principal {
             System.out.println(empleados[i].getNombre());
             empleados[i].saludoMetodo();
         }
-        System.out.println();
+        System.out.println("-------------------");
         System.out.println("Usando Static ... ");
         Equipo[] equipos = new Equipo[3];
         equipos[0] = new Equipo(3,"Lenovo");
         equipos[1] = new Equipo(5,"Dell");
         equipos[2] = new Equipo(10,"HP");
         System.out.println("ID del ultimo equipo agregado: " + Equipo.id);
+        System.out.println("-------------------");
+
+        System.out.println("Instaceof y conversiones de tipo");
+        // Implicito
+        Contrato c1 = new Deposito();
+        Contrato c = new Prestamo();
+        //Contrato c = new Deposito();
+
+        //metodo de contrato
+        c1.metodoGenerico();
+
+        if (c instanceof Deposito){
+            System.out.println("Contrato es un instancia de Deposito");
+            //explicito
+            Deposito d = (Deposito) c;
+            d.metodoGenerico();
+        }
+        else if (c instanceof Prestamo){
+            System.out.println("Contrato es una instacia de Prestamo");
+            Prestamo p = (Prestamo) c;
+            p.metodoGenerico();
+        }
+
+
     }
 }
+class Contrato{
+    Contrato(){}
+    public void metodoGenerico(){
+        System.out.println("Se hace un Contrato");
+    }
+}
+class Deposito extends  Contrato{
+    @Override
+    public void metodoGenerico(){
+        System.out.println("Se hace un Deposito");
+    }
+}
+class Prestamo extends  Contrato{
+    @Override
+    public void metodoGenerico(){
+        System.out.println("Se hace un Prestamo");
+    }
+}
+
+
 class Equipo{
     public static int id;
     private int cantidad;
