@@ -18,6 +18,7 @@ public class ArrayEnum {
 
         char[] elArreglo = {'C','O','M','P','I','L','A'};
         Dias diaLunes = Dias.LUNES;
+        System.out.println(diaLunes);
         System.out.println(diaLunes.getdIngles());
         System.out.println(diaLunes.getdRuso());
     }
@@ -25,8 +26,6 @@ public class ArrayEnum {
 enum Dias{
     LUNES("Monday","Lunosky"), MARTES("Tuesday","Martosky"), MIERCOLES("Wendsday","Miercolosky");
     private String dIngles, dRuso;
-    Dias(){
-    }
     Dias(String ingles, String ruso){
         this.dIngles = ingles;
         this.dRuso = ruso;
