@@ -24,7 +24,6 @@ public class Main {
 
         int res = v1 + v2 * v1 / 2 % 5;
         System.out.println("resultado: " + res);
-
         System.out.println(1 + "4");
 
 
