@@ -46,9 +46,8 @@ public class Primitivos {
         //ValueOf:
         //Otra forma de construir un objeto de una clase envoltorio es mediante este método estático, valueOf.
         // Este método puede aceptar un String, o un String y un parámetro que indique la base numérica.
-        Integer nuevo = new Integer.valueOf("150");
-        Integer binario = new Integer.valueOf("1010", 2);
-
+        //Integer nuevo = new Integer.valueOf("150");
+        //Integer binario = new Integer.valueOf("1010", 2);
         //Autoboxing y unboxing:
         //Para pasar de un tipo primitivo a su objeto equivalente se necesita utilizar las clases envoltorio (boxing).
         //Para obtener de la referencia del objeto su tipo primitivo (unboxing) se necesitan usar los métodos de las clases envoltorio.
